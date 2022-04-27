@@ -19,12 +19,17 @@
       <a-asset-item id="dragon" src="dragon.glb"response-type="arraybuffer" src="https://cdn.glitch.com/1061d524-9d0f-4b25-97fd-48ebd0fce63c%2Fsceneglb.glb?1546534633849"></a-asset-item>
 <!-- <img id="sky" src="skyline.jpg"> -->
     </a-assets>
-    <a-camera>
+    <!-- <a-camera> -->
       <a-cursor></a-cursor>
+    <!-- </a-camera> -->
+    <a-camera camera="" position="0.019218372488010508 1.6 1.0675720477193245" rotation="8.594366926962312 1.0313240312354794 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="">
+      <a-cursor material="" raycaster="" cursor="" geometry=""></a-cursor>
+    
     </a-camera>
     <!-- sky -->
     <a-sky src="#sky"></a-sky>
-    <a-entity gltf-model="#dragon" scale="0.1 0.1 0.1" position="0 1.5 -2" animation-mixer="clip:normal; loop:2; timeScale: 5; crossFadeDuration: 1"></a-entity>
+    <!-- <a-entity gltf-model="#dragon" scale="0.1 0.1 0.1" position="0 1.5 -2" animation-mixer="clip:normal; loop:2; timeScale: 5; crossFadeDuration: 1"></a-entity> -->
+    <a-entity gltf-model="dragon.glb" scale="0.1 0.1 0.1" position="0 1.5 0.862" animation-mixer="clip: normal; loop: 2; timeScale: 5; crossFadeDuration: 1"></a-entity>
   
     <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
   
